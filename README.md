@@ -14,7 +14,7 @@ The hDCM-TM.yml file specifies all required dependencies and version numbers. Ru
 ```
 conda env create -f hDCM-TM.yml
 ```
-The pyUCell package must be installed separately using pip as it is not available directly through Conda.
+The pyUCell package must be installed separately using pip.
 
 ## Citation
 If you use this code or data, please cite the manuscript and the archived version of this repository:
