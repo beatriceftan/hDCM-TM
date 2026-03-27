@@ -22,4 +22,4 @@ If you use this code or data, please cite the manuscript and the archived versio
 **van Leeuwen, M. E., Tan, B. F., Wassenaar, E., Sleddens-Linkels, E., Boers, R., Gontan, C., & Gribnau, J. (2025). _Human DCM-time machine unravels cell state changes during primitive gut tube differentiation._ bioRxiv, 2025.09.26.678757. [https://doi.org/10.1101/2025.09.26.678757](https://doi.org/10.1101/2025.09.26.678757)**
 
 [![DOI](https://img.shields.io/badge/DOI-10.1101/2025.09.26.678757-blue)](https://doi.org/10.1101/2025.09.26.678757)
-[![DOI](https://zenodo.org/badge/923085316.svg)](https://doi.org/10.5281/zenodo.16760254)
+[![DOI](https://zenodo.org/badge/923085316.svg)](zenodo.org)
