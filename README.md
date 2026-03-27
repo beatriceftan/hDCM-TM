@@ -6,29 +6,15 @@ All raw and processed high-throughput sequencing data (MeD-seq, bulk RNA-seq and
 Moreover, ChiP-seq datasets from GSE158382, GSE220103, GSE145964 and GSE149148 were reanalyzed.
 
 ## Code availability
-The directory [Notebooks](https://bitbucket.org/beatricetan/hdcm-tm/src/main/Notebooks/) contains all Jupyter Notebooks used for processing MeD-seq, bulk RNA-seq, and scRNA-seq data and generating all figures included in the manuscript.
+The directory [Notebooks](https://bitbucket.org/beatricetan/hdcm-tm/src/main/Notebooks/) contains all Jupyter Notebooks used for processing MeD-seq, bulk RNA-seq, scRNA-seq and ChIP-seq data and generating the figures included in the manuscript.
 
 ## Installing required software
 All software dependencies can be installed using *conda* and the provided environment file.
-
-### Create the environment
 The hDCM-TM.yml file specifies all required dependencies and version numbers. Run the following command in your terminal to create the environment (named hDCM-TM):
 ```
 conda env create -f hDCM-TM.yml
 ```
-
-### Activate and install UCell
-The pyUCell package must be installed separately using pip as it is not available directly through Conda. Activate the environment first before running the installation command.
-```
-conda activate hDCM-TM
-pip install pyucell==0.5.0
-```
-
-### Add kernel to Jupyter
-Finally, install the new environment as a kernel so you can select hDCM-TM within your Jupyter interface:
-```
-python -m ipykernel install --user --name=hDCM-TM
-```
+The pyUCell package must be installed separately using pip as it is not available directly through Conda.
 
 ## Citation
 If you use this code or data, please cite the manuscript and the archived version of this repository:
@@ -37,7 +23,3 @@ If you use this code or data, please cite the manuscript and the archived versio
 
 [![DOI](https://img.shields.io/badge/DOI-10.1101/2025.09.26.678757-blue)](https://doi.org/10.1101/2025.09.26.678757)
 [![DOI](https://zenodo.org/badge/923085316.svg)](https://doi.org/10.5281/zenodo.16760254)
-
-
-## To do
-- Update GEO: GSM9145592_DE.matrix.tsv.gz > GSM9145592_DE.matrix.mtx.gz
